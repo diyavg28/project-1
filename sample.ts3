@@ -1,0 +1,13 @@
+class Box {
+  value: number;
+
+  constructor(value: number) {
+    this.value = value;
+  }
+
+  show() {
+    console.log("Box value:", this.value);
+  }
+}
+
+new Box(50).show();

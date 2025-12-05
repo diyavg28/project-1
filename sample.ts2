@@ -1,0 +1,7 @@
+interface Student {
+  id: number;
+  name: string;
+}
+
+const s: Student = { id: 1, name: "Diya" };
+console.log(s);
